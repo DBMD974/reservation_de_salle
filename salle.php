@@ -10,6 +10,23 @@
 </head>
 <body>
 
+<!-- ma navbar -->
+<nav>
+  <div class="logo">
+    <img src="img/mon logo.png" alt="Logo">
+  </div>
+  <ul class="nav-links">
+    <li><a href="#">Accueil</a></li>
+    <li><a href="#">Salles</a></li>
+    <li><a href="#">À propos de nous</a></li>
+  </ul>
+  <div class="user">
+    <a href="#">S'identifier</a>
+    <button>Se connecter</button>
+  </div>
+</nav>
+
+
 
 
 
