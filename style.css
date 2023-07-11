@@ -1,6 +1,6 @@
 body{
     margin: 0 5%;
-    background-color: rgb(178, 201, 205);
+    background-color: rgb(231, 239, 240);
 }
 
 /* ma navbar */
@@ -11,11 +11,12 @@ nav {
     padding: 10px;
     background-color: #f2f2f2;
     width: 100%;
+    border: 2px solid blue;
   }
   
   .logo img {
-    height: 60px;
-    width: 100px;
+    height: 100px;
+    width: 150px;
   }
   
   .nav-links {
@@ -58,6 +59,7 @@ nav {
     scroll-snap-type: x mandatory; /* Indique que le défilement se fait horizontalement et "snappe" aux éléments */
     scroll-behavior: smooth; /* Ajoute une animation de défilement fluide */
     width: 100%; /* Largeur totale du carousel */
+    margin: 8% auto;
     
   }
   
@@ -69,7 +71,7 @@ nav {
   
   .carousel-item img {
     width: 100%; /* Image occupe 100% de la largeur du conteneur */
-    height: 600px; /* Hauteur automatique pour maintenir le ratio d'aspect de l'image */
+    height: 700px; /* Hauteur automatique pour maintenir le ratio d'aspect de l'image */
   }
   
   .carousel-text {
@@ -77,7 +79,7 @@ nav {
     bottom: 10px; /* Positionnement du texte en bas avec un espacement de 10px */
     left: 10px; /* Positionnement du texte à gauche avec un espacement de 10px */
     color: #040404; /* Couleur du texte */
-    text-shadow: 2px 2px 4px rgba(249, 219, 26, 0.7); /* Ajoute une ombre au texte pour le rendre plus lisible */
+    text-shadow: 2px 2px 4px #3a4a63; /* Ajoute une ombre au texte pour le rendre plus lisible */
   }
   
   .carousel-text h3 {
@@ -88,6 +90,239 @@ nav {
   .carousel-text p {
     margin: 5px 0 0; /* Marge supérieure de 5px pour le paragraphe */
     font-size: 25px; /* Taille de police pour le p */
+    color: white;
   }
+
+  /* petite ligne de separation */
+  hr{
+    width: 90%;
+    height: 3px;
+    color: #ffffff;
+    background-color: #3a4a63;
+  }
+
+
+  /* ma premiere section texte valorisante */
+  .sec1{
+    display: flex;
+    /* margin: 0 10%; */
+  }
+
+  .sec1 p{
+    text-align: center; /* pour centrer le texte*/
+    font-size: x-large; /* Taille de police pour le p */
+    color: #040404;
+    text-shadow: 3px 3px 4px #3a4a63;
+    width: 50%;
+
+  }
+
+  .image1{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    padding-left: 10%;
+  }
+
+
+  /* ma 2eme section pour exposer mes cards */
+  .room-section {
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    gap: 20px; /* Espace entre les cartes */
+    margin: 10% auto;
+  }
+  
+  .room-card {
+    flex: 1; /* Permet aux cartes de prendre une quantité égale d'espace disponible */
+    max-width: 300px; /* Largeur maximale des cartes */
+    text-align: center; /* Centre le contenu du texte à l'intérieur des cartes */
+    padding: 20px; /* Espacement interne des cartes */
+    border: 1px solid #ccc; /* Bordure autour des cartes */
+  }
+  
+  .room-card img {
+    max-width: 100%; /* Image à largeur maximale à l'intérieur des cartes */
+  }
+  
+  .room-card h3 {
+    margin-top: 10px; /* Espacement du titre par rapport à l'image */
+  }
+  
+  .room-card p {
+    margin-top: 10px; /* Espacement de la description par rapport au titre */
+  }
+  
+  .room-card button {
+    padding: 10px 20px; /* Espacement du bouton */
+    background-color: #333; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    border-radius: 4px; /* Ajoute un arrondi aux coins du bouton */
+  }
+
+
+  /* section 3 */
+
+  .sec3{
+    display: flex;
+    margin: 8% 10%;
+  }
+
+  .sec3 p{
+    text-align: center; /* pour centrer le texte*/
+    font-size: x-large; /* Taille de police pour le p */
+    color: #040404;
+    text-shadow: 3px 3px 4px #3a4a63;
+    width: 50%;
+  }
+
+  .img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    padding-right: 10%;
+  }
+
+
+
+  /* section 4 */
+  .sec4 p{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 3px 3px 4px #06fbb6;
+    color: #3a4a63;
+    margin: 7% 10%;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* mon footer */
+  footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3a4a63;
+    color: white;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .footer-logo img {
+    height: 80px;
+    padding: 10px 20px;
+  }
+  
+  .footer-info h4,
+  .footer-contact h4 {
+    margin-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-decoration: underline;
+  }
+  
+  .footer-info p {
+    margin-bottom: 10px;
+    margin: 5px 10px;
+  }
+  
+  .footer-contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-contact li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .footer-contact i {
+    margin-right: 5px;
+  }
+  
   
   
