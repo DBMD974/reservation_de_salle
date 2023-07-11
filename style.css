@@ -1,5 +1,6 @@
 body{
-
+    margin: 0 5%;
+    background-color: rgb(178, 201, 205);
 }
 
 /* ma navbar */
@@ -9,10 +10,12 @@ nav {
     justify-content: space-between;
     padding: 10px;
     background-color: #f2f2f2;
+    width: 100%;
   }
   
   .logo img {
-    height: 30px;
+    height: 60px;
+    width: 100px;
   }
   
   .nav-links {
@@ -28,20 +31,63 @@ nav {
   
   .nav-links li a {
     text-decoration: none;
-    color: #333;
+    color: #3a4a63;
+    font-size: xx-large;
   }
   
   .user a {
     margin-right: 10px;
     text-decoration: none;
-    color: #333;
+    color: #3a4a63;
+    font-size: xx-large;
   }
   
   .user button {
-    padding: 5px 10px;
-    background-color: #333;
+    padding: 10px 20px;
+    background-color: #487b90;
     color: #fff;
     border: none;
     border-radius: 4px;
   }
+
+
+  /* mon carousel */
+  .carousel {
+    display: flex; /* Utilise un affichage flex pour aligner les éléments en ligne */
+    overflow-x: auto; /* Permet un défilement horizontal lorsque le contenu dépasse la largeur du conteneur */
+    scroll-snap-type: x mandatory; /* Indique que le défilement se fait horizontalement et "snappe" aux éléments */
+    scroll-behavior: smooth; /* Ajoute une animation de défilement fluide */
+    width: 100%; /* Largeur totale du carousel */
+    
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%; /* Chaque diapositive occupe 100% de la largeur disponible */
+    scroll-snap-align: start; /* Définit l'alignement des diapositives lors du défilement */
+    position: relative; /* Positionnement relatif pour les éléments internes positionnés absolument */
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Image occupe 100% de la largeur du conteneur */
+    height: 600px; /* Hauteur automatique pour maintenir le ratio d'aspect de l'image */
+  }
+  
+  .carousel-text {
+    position: absolute; /* Positionnement absolu pour placer le texte par rapport à l'élément parent */
+    bottom: 10px; /* Positionnement du texte en bas avec un espacement de 10px */
+    left: 10px; /* Positionnement du texte à gauche avec un espacement de 10px */
+    color: #040404; /* Couleur du texte */
+    text-shadow: 2px 2px 4px rgba(249, 219, 26, 0.7); /* Ajoute une ombre au texte pour le rendre plus lisible */
+  }
+  
+  .carousel-text h3 {
+    margin: 0; /* Supprime les marges par défaut pour le titre */
+    font-size: 30px; /* Taille de police pour le titre */
+  }
+  
+  .carousel-text p {
+    margin: 5px 0 0; /* Marge supérieure de 5px pour le paragraphe */
+    font-size: 25px; /* Taille de police pour le p */
+  }
+  
   
