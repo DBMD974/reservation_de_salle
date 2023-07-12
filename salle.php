@@ -23,7 +23,7 @@
             <li><a href="#">À propos de nous</a></li>
         </ul>
         <div class="user">
-            <a href="#">S'identifier</a>
+            <button><a href="#">S'inscrire</a></button>
             <button><a href="formulaire.php">Se connecter</a></button>
         </div>
     </nav>
