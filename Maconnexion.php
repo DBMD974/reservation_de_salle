@@ -131,40 +131,5 @@ use MaConnexion as GlobalMaConnexion;
 
  $test = new MaConnexion("reservation_de_salle","","root","localhost");
  
-//  $test2 = new MaConnexion("entreprises","","root","localhost");
-//  $test4 = new Maconnexion("magasindam", "", "root", "localhost");
- //echo $test4->miseAJourProduit_Secure("ravioli",4,"plein de tomate",7);
 
-
-
- 
-//  $jumbo = new MaConnexion("jumbo","","root","localhost");
-//  print_r($jumbo->select("client","nom"));
- //$jumbo->insert("client", array("Jean","10 avenue Montparnasse","coco@yahoo.fr"), array("Nom","Adresse","AdresseEmail"));
- 
- 
- /*
- public function insert($Table, $Values , $Column)
-{
-  try {
-      $ToString = '"' . join('","', $Values) . '"';
-      $ToString = str_replace('""', "NULL", $ToString); //bad - NULL est transformé en "" (empty string)
-      $ColumConv= '(' . join(',', $Column) . ')';
-      
-      //INSERT INTO `utilisateur`(`NameLast`, `NameFirst`, `Email`, `Birthday`, `idUser`, `Image`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]')
-      $SQLQueryString = "INSERT INTO $Table $ColumConv VALUES ($ToString)";
-
-      $Result = $this->Connection->query($SQLQueryString);
-      return true;
-  
-  } catch (PDOException $e) {
-      echo "Erreur: " . $e->getMessage();
-      
-      return false;
-  }
-}
-//NULL devrait être "NULL", but idc enough
-$Result = $NewConnection->insert("utilisateur", array("Doe", "Jane", "email@domain", "20230101", NULL, "path/to/image.jpg"));
-
-*/
 ?>
