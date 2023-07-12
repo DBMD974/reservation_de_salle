@@ -82,31 +82,72 @@
 
     <!-- deuxieme section -->
     <section class="room-section">
-        <div class="room-card">
-            <img src="img/sallereunion.jpg" alt="Image 1">
-            <h3>Salle Medium :</h3>
-            <p>Description de la salle 1</p>
-            <button>Réserver</button>
-        </div>
-        <div class="room-card">
-            <img src="img/reddesign.jpg" alt="Image 2">
-            <h3>Salle Standard :</h3>
-            <p>Description de la salle 2</p>
-            <button>Réserver</button>
-        </div>
-        <div class="room-card">
-            <img src="img/reunion.jpg" alt="Image 3">
-            <h3>Salle de Médium :</h3>
-            <p>Description de la salle 3</p>
-            <button>Réserver</button>
-        </div>
-        <div class="room-card">
-            <img src="img/conferences.jpg" alt="Image 4">
-            <h3>Salle de Conférences :</h3>
-            <p>Description de la salle 4</p>
-            <button>Réserver</button>
-        </div>
-    </section>
+  <div class="room-card">
+    <img src="img/sallereunion.jpg" alt="Image 1">
+    <h3>Salle Medium :</h3>
+    <p>Description de la salle 1</p>
+    <button class="reserve-btn">Réserver</button>
+  </div>
+  <div class="room-card">
+    <img src="img/reddesign.jpg" alt="Image 2">
+    <h3>Salle Standard :</h3>
+    <p>Description de la salle 2</p>
+    <button class="reserve-btn">Réserver</button>
+  </div>
+  <div class="room-card">
+    <img src="img/reunion.jpg" alt="Image 3">
+    <h3>Salle de Médium :</h3>
+    <p>Description de la salle 3</p>
+    <button class="reserve-btn">Réserver</button>
+  </div>
+  <div class="room-card">
+    <img src="img/conferences.jpg" alt="Image 4">
+    <h3>Salle de Conférences :</h3>
+    <p>Description de la salle 4</p>
+    <button class="reserve-btn">Réserver</button>
+  </div>
+</section>
+
+
+<!-- Modal de réservation -->
+<div id="reservation-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Réservation de salle</h2>
+    <form class="reservation-form">
+      <div class="form-group">
+        <label for="user">Utilisateur :</label>
+        <input type="text" id="user" name="id_utilisateur" required>
+      </div>
+      <div class="form-group">
+        <label for="room">Salle :</label>
+        <select id="room" name="id_salle" required>
+          <option value="salle-medium">Salle Medium</option>
+          <option value="salle-standard">Salle Standard</option>
+          <option value="salle-medium2">Salle de Médium</option>
+          <option value="salle-conferences">Salle de Conférences</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="start-date">Date de début :</label>
+        <input type="date" id="start-date" name="date_debut" required>
+        <input type="time" id="start-time" name="heure_debut" required>
+      </div>
+      <div class="form-group">
+        <label for="end-date">Date de fin :</label>
+        <input type="date" id="end-date" name="date_fin" required>
+        <input type="time" id="end-time" name="heure_fin" required>
+      </div>
+      <button type="submit">Réserver</button>
+    </form>
+  </div>
+</div>
+
+      <!-- Vos champs de réservation ici -->
+    </form>
+  </div>
+</div>
+
 
     <br>
     <hr>
