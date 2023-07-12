@@ -1,6 +1,7 @@
 body{
     margin: 0 5%;
-    background-color: rgb(231, 239, 240);
+    /* background-color: rgb(231, 239, 240); */
+    background: linear-gradient(to bottom, #529cca, #666); 
 }
 
 /* ma navbar */
@@ -111,7 +112,7 @@ nav {
   .sec1 p{
     text-align: center; /* pour centrer le texte*/
     font-size: x-large; /* Taille de police pour le p */
-    color: #040404;
+    color: #ffffff;
     text-shadow: 3px 3px 4px #3a4a63;
     width: 50%;
 
@@ -139,7 +140,8 @@ nav {
     max-width: 300px; /* Largeur maximale des cartes */
     text-align: center; /* Centre le contenu du texte à l'intérieur des cartes */
     padding: 20px; /* Espacement interne des cartes */
-    border: 1px solid #ccc; /* Bordure autour des cartes */
+    border: 1px solid #000000; /* Bordure autour des cartes */
+    background-color: white;
   }
   
   .room-card img {
@@ -173,7 +175,7 @@ nav {
   .sec3 p{
     text-align: center; /* pour centrer le texte*/
     font-size: x-large; /* Taille de police pour le p */
-    color: #040404;
+    color: #ffffff;
     text-shadow: 3px 3px 4px #3a4a63;
     width: 50%;
   }
@@ -192,7 +194,7 @@ nav {
     text-align: center;
     font-size: xx-large;
     text-shadow: 3px 3px 4px #3a4a63;
-    color: #3a4a63;
+    color: #ffffff;
     margin: 7% 10%;
   }
   
