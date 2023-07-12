@@ -24,7 +24,7 @@
         </ul>
         <div class="user">
             <a href="#">S'identifier</a>
-            <button>Se connecter</button>
+            <button><a href="formulaire.php">Se connecter</a></button>
         </div>
     </nav>
 
@@ -57,7 +57,7 @@
             <img src="img/istockphoto-480155820-612x612.jpg" alt="Image 4">
             <div class="carousel-text">
                 <h3>Salle de Créativité :</h3>
-                <p></p>
+                <p>Notre salle de Créativité est spécialement conçue pour des sessions de brainstorming et des réunions axées sur l'innovation. Avec un espace ouvert et stimulant, elle permet aux équipes de libérer leur créativité. Cette salle est équipée de murs d'écriture, de tables modulables et de sièges confortables pour favoriser les échanges d'idées et les discussions dynamiques. </p>
             </div>
         </div>
     </div>
@@ -84,25 +84,25 @@
     <section class="room-section">
         <div class="room-card">
             <img src="img/sallereunion.jpg" alt="Image 1">
-            <h3>Titre de la salle 1</h3>
+            <h3>Salle Medium :</h3>
             <p>Description de la salle 1</p>
             <button>Réserver</button>
         </div>
         <div class="room-card">
             <img src="img/reddesign.jpg" alt="Image 2">
-            <h3>Titre de la salle 2</h3>
+            <h3>Salle Standard :</h3>
             <p>Description de la salle 2</p>
             <button>Réserver</button>
         </div>
         <div class="room-card">
             <img src="img/reunion.jpg" alt="Image 3">
-            <h3>Titre de la salle 3</h3>
+            <h3>Salle de Médium :</h3>
             <p>Description de la salle 3</p>
             <button>Réserver</button>
         </div>
         <div class="room-card">
             <img src="img/conferences.jpg" alt="Image 4">
-            <h3>Titre de la salle 4</h3>
+            <h3>Salle de Conférences :</h3>
             <p>Description de la salle 4</p>
             <button>Réserver</button>
         </div>

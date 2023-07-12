@@ -325,4 +325,74 @@ nav {
   }
   
   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+  /* a partir de la c'est le css de ma page formulaire */
+
+  /* j'ai du rajouter une class a mon body */
+  .bodyformulaire{
+    font-family: Arial, sans-serif; /* Utilise la police Arial ou une police sans-serif similaire */
+    background: url(../reservation_de_salle/img/lune.jpg) no-repeat;
+    
+  }
+
+
+/* le css de mon formulaire */
+
+.registration-form {
+  width: 400px; /* Largeur du formulaire */
+  margin: 0 auto; /* Centre le formulaire horizontalement */
+  padding: 20px;
+  background: linear-gradient(to bottom, #000, #666); /* Dégradé linéaire du noir au gris */
+  color: #39D1B4; /* Couleur du texte en bleu cyan */
+  border: 1px solid #39D1B4; /* Bordure en bleu cyan */
+  border-radius: 5px;
+}
+
+.registration-form h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  color: #FFF; /* Couleur du texte en blanc */
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7); /* Bordure lumineuse */
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #39D1B4; /* Couleur de fond du bouton en bleu cyan */
+  color: #FFF; /* Couleur du texte en blanc */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #1F7A70; /* Couleur de fond du bouton en bleu cyan foncé au survol */
+}
+
+
+
