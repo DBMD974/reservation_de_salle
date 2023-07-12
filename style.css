@@ -389,11 +389,11 @@ nav {
   }
 
 
-/* le css de mon formulaire */
+/* le css de mon formulaire de connexion */
 
 .registration-form {
   width: 400px; /* Largeur du formulaire */
-  margin: 0 auto; /* Centre le formulaire horizontalement */
+  margin: 50px auto; /* Centre le formulaire horizontalement */
   padding: 20px;
   background: linear-gradient(to bottom, #000, #666); /* Dégradé linéaire du noir au gris */
   color: #39D1B4; /* Couleur du texte en bleu cyan */
@@ -448,7 +448,54 @@ button[type="submit"]:hover {
 
  /* a partir de la c'est le css de ma page formulaire d'inscription*/
 
- body .inscription{
+ .bodyinscription{
   background: url(../reservation_de_salle/img/lunered.jpg)
  }
+
+ 
+.registration-form2 {
+  width: 400px; /* Largeur du formulaire */
+  margin: 50px auto; /* Centre le formulaire horizontalement */
+  padding: 20px;
+  background: linear-gradient(to bottom, #000, #5a3243); /* Dégradé linéaire du noir au gris */
+  color: #ffffff; /* Couleur du texte en bleu cyan */
+  border: 2px solid #ffffff; /* Bordure en bleu cyan */
+  border-radius: 5px;
+}
+
+.registration-form2 h2 {
+  text-align: center;
+}
+
+.form-group2 label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group2 input {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  color: #FFF; /* Couleur du texte en blanc */
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7); /* Bordure lumineuse */
+  margin-bottom: 20px;
+}
+
+button[type="submit2"] {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: #d13978; /* Couleur de fond du bouton en bleu cyan */
+  color: #FFF; /* Couleur du texte en blanc */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit2"]:hover {
+  background-color: #55142f; /* Couleur de fond du bouton en bleu cyan foncé au survol */
+}
+
 
